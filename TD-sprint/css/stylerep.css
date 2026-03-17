@@ -1,0 +1,18 @@
+.tableau {
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+    width: 70%;
+}
+.question {
+    display: flex;
+    flex-direction: column;
+    margin-bottom : 16px;
+}
+.correct {
+    color: green;
+    font-weight: bold;
+}
+.incorrect {
+    color: red;
+}
